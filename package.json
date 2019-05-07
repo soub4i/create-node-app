@@ -1,0 +1,16 @@
+{
+  "name": "create-node-app",
+  "version": "1.0.0",
+  "description": "Dummy CLI",
+  "main": "index.js",
+  "author": "Abderrahim SOUBAI-ELIDRISI",
+  "license": "MIT",
+  "dependencies": {
+    "commander": "^2.20.0",
+    "figlet": "^1.2.1",
+    "touch": "^3.1.0"
+  },
+  "bin": {
+    "create-node-app": "./lib/index.js"
+  }
+}
