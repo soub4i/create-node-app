@@ -10,7 +10,8 @@
     "figlet": "^1.2.1",
     "handlebars": "^4.1.2",
     "inquirer": "^6.3.1",
-    "nodegit": "^0.24.3"
+    "nodegit": "^0.24.3",
+    "ora": "^3.4.0"
   },
   "bin": {
     "create-node-app": "./index.js"
