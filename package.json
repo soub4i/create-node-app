@@ -1,7 +1,7 @@
 {
   "name": "create-node-app",
   "version": "1.0.0",
-  "description": "Dummy CLI",
+  "description": "Minimalist CLI to speedUP your node projects",
   "main": "index.js",
   "author": "Abderrahim SOUBAI-ELIDRISI",
   "license": "MIT",
@@ -15,5 +15,6 @@
   },
   "bin": {
     "create-node-app": "./index.js"
-  }
+  },
+  "preferGlobal": true
 }
