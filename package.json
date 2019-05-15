@@ -1,5 +1,5 @@
 {
-  "name": "create-node-app",
+  "name": "node-app-cli",
   "version": "1.0.0",
   "description": "Minimalist CLI to speedUP your node projects",
   "main": "index.js",
@@ -15,7 +15,7 @@
     "simple-git": "^1.113.0"
   },
   "bin": {
-    "create-node-app": "./index.js"
+    "nac": "./index.js"
   },
   "preferGlobal": true
 }
