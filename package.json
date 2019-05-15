@@ -1,5 +1,5 @@
 {
-  "name": "node-app-cli",
+  "name": "@soubai/node-cli",
   "version": "1.0.0",
   "description": "Minimalist CLI to speedUP your node projects",
   "main": "index.js",
