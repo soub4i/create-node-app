@@ -1,7 +1,6 @@
 #!/usr/bin/env node
 
 const program = require("commander");
-const inquirer = require("inquirer");
 const { loader, generateFile, gitHandler } = require("./lib/creator");
 
 loader();
@@ -18,7 +17,7 @@ program
 program
 
   .command("new <project>")
-  .alias("g")
+  .alias("n")
 
   .description("create a new project a file")
 
