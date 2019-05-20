@@ -1,10 +1,14 @@
 {
   "name": "node-app-cli",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Minimalist CLI to speedUP your node projects",
   "main": "index.js",
   "author": "Abderrahim SOUBAI-ELIDRISI",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AbderrahimSoubaiElidrissi/create-node-app.git"
+  },
   "dependencies": {
     "commander": "^2.20.0",
     "const": "^1.0.0",
@@ -17,5 +21,12 @@
   "bin": {
     "nac": "./index.js"
   },
-  "preferGlobal": true
+  "preferGlobal": true,
+  "keywords": [
+    "cli",
+    "node",
+    "generator",
+    "crud",
+    "typescript"
+  ]
 }

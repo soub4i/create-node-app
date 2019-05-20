@@ -4,16 +4,10 @@
 
 node-app-cli : allow you to create a new project using `new` command and generate all related files to the project :
 
-`nac generate model [options]` Generate new model
-`nac generate controller [options]` Generate new controller
-`nac generate route [options]` Generate new route
-`nac generate service [options]` Generate new service
 
-`[options]` here can be --typescript for Typescript project or --javascript for Javascript one.
+###install
 
-###Usage
-
-`nac [command] [options]`
+`npm install -g @soubai/node-cli`
 
 ###Commands:
 `generate <type> <file>` : alias g Generate a file
@@ -23,5 +17,19 @@ node-app-cli : allow you to create a new project using `new` command and generat
 --typescript default value
 --javascript
 -h, --help output usage information
+
+###Usage
+
+`nac [command] [options]`
+
+`nac generate model [options]` Generate new model
+`nac generate controller [options]` Generate new controller
+`nac generate route [options]` Generate new route
+`nac generate service [options]` Generate new service
+
+`[options]` here can be --typescript for Typescript project or --javascript for Javascript one.
+
+
+
 
 Made with ❤ By Abderrahim SOUBAI-ELIDRISI
