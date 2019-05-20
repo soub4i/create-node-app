@@ -1,8 +1,8 @@
-#node-app-cli
+#node-cli
 
 > a minimalist command line interface to speed-up your node projects
 
-node-app-cli : allow you to create a new project using `new` command and generate all related files to the project :
+**node-cli** : allow you to create a new project using `new` command and generate all related files to the project :
 
 
 ###install
