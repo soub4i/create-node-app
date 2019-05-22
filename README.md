@@ -2,7 +2,7 @@
 
 > a minimalist command line interface to speed-up your node projects
 
-node-app-cli : allow you to create a new project using `new` command and generate all related files to the project :
+**node-cli** : allow you to create a new project using `new` command and generate all related files to the project :
 
 `nac generate model [options]` Generate new model
 
@@ -12,7 +12,7 @@ node-app-cli : allow you to create a new project using `new` command and generat
 
 `nac generate service [options]` Generate new service
 
-`[options]` here can be --typescript for Typescript project or --javascript for Javascript one.
+###install
 
 **Usage:**
 
@@ -33,5 +33,16 @@ node-app-cli : allow you to create a new project using `new` command and generat
 **--javascript** : use javascript
 
 -h, --help output usage information
+
+###Usage
+
+`nac [command] [options]`
+
+`nac generate model [options]` Generate new model
+`nac generate controller [options]` Generate new controller
+`nac generate route [options]` Generate new route
+`nac generate service [options]` Generate new service
+
+`[options]` here can be --typescript for Typescript project or --javascript for Javascript one.
 
 Made with ❤ By Abderrahim SOUBAI-ELIDRISI
