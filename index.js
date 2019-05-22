@@ -1,7 +1,12 @@
 #!/usr/bin/env node
 
 const program = require("commander");
-const { loader, generateFile, gitHandler } = require("./lib/creator");
+const {
+  loader,
+  generateFile,
+  gitHandler,
+  generateCRUD
+} = require("./lib/creator");
 
 loader();
 
@@ -12,6 +17,14 @@ program
   .description("Generate a file")
   .action(async (type, filename) => {
     await generateFile(type, filename);
+  });
+
+program
+
+  .command("crud <file>")
+  .description("Generate a file")
+  .action(async filename => {
+    await generateCRUD(filename);
   });
 
 program
