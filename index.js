@@ -22,7 +22,7 @@ program
 program
 
   .command("crud <file>")
-  .description("Generate a file")
+  .description("Generate a crud files : route,model,controller ")
   .action(async filename => {
     await generateCRUD(filename);
   });
